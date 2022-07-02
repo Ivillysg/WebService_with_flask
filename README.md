@@ -1,5 +1,9 @@
 # WebService with flask
 
+Equipe:
+- Nome: Ivillys Oliveira Gomes da Silva, Matricula: 19110959
+- Nome: Mateus Aristides Honorato dos Santos, Matricula: 19111176
+
 ---
 ## Requirements
 ```
