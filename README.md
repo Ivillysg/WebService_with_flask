@@ -22,8 +22,7 @@ cd WebService_with_flask
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-export FLASK_APP = app
-flask run
+python3 main.py
 ```
 
 
