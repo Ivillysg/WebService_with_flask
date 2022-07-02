@@ -54,6 +54,6 @@ def delete_user(user_id: int):
     user = database.users_data.get(user_id)
     if user:
         del database.users_data[user_id]
-        return jsonify({'message': 'User successfully removed', 'user': user}), 200
+        return jsonify(), 204
 
     return jsonify({'error': 'User not found'}), 404
